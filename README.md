@@ -20,8 +20,14 @@ data-protection law) compliance focus.
 - An algorithmic trading bot with event sourcing, circuit breakers and a full test/soak discipline (private)
 - Game prototypes for the iGaming space — WebGL, provably-fair math (private)
 
-Most of my work lives in private repositories due to its nature. If you want
-to know more about any of it, reach out.
+## Open source
+
+- [claude-statusline](https://github.com/ewebier/claude-statusline) — zero-token
+  status line for the Claude Code CLI: model, usage, reset time and session cost,
+  read from local files with no API calls. Shell + Python stdlib, MIT.
+
+Most of my other work lives in private repositories due to its nature. If you
+want to know more about any of it, reach out.
 
 ## Contact
 

@@ -40,10 +40,6 @@ Trabalho com ISO/IEC 27001, NIST CSF, CIS Controls e LGPD — e com o que for pr
 
 ### Atividade
 
-![](https://github-stats-extended.vercel.app/api?username=ewebier&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true)
-
-[![](https://streak-stats.demolab.com/?user=ewebier&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
-
 ![](https://ghchart.rshah.org/7AA2F7/ewebier)
 
 <picture>

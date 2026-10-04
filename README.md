@@ -42,11 +42,6 @@ Trabalho com ISO/IEC 27001, NIST CSF, CIS Controls e LGPD — e com o que for pr
 
 ![](https://ghchart.rshah.org/7AA2F7/ewebier)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ewebier/ewebier/output/github-snake-dark.svg">
-  <img alt="contribuições" src="https://raw.githubusercontent.com/ewebier/ewebier/output/github-snake.svg">
-</picture>
-
 </div>
 
 ---

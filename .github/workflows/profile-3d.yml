@@ -1,0 +1,27 @@
+name: Gera o grafico 3D
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 UTC = 00:00 em Santa Cruz do Sul (GMT-3)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit e push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "chore: regenera gráfico 3D de contribuições"; then
+            git push
+          fi
